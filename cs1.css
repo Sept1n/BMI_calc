@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(to right, rgb(88, 88, 88), rgb(216, 205, 205), rgb(88, 88, 88)); 
+}
+.text1 {
+  margin-right: auto;
+  margin-left: auto;
+  transform: skew(-8deg);
+  transform: rotate(-8deg);
+  grid-area: text;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 12vmin;
+  color: #cad80d;
+  text-shadow: 1vmin 1vmin 0 rgb(88, 35, 158), -1vmin -1vmin 0 rgb(115, 212, 70);
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  height: 20%;
+}
+.main{
+  width: 100%
+
+}
+.naglowek {
+  text-align: center;
+  font-size: 40px;
+  color: #992199;
+  word-spacing: 10px;
+}
+.table {
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  height: 20%;
+  width: 30%;
+  
+}
+.join {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+.image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.niedowaga {
+  color: rgba(8, 90, 214, 0.37);
+}
+.norma {
+color: green;
+}
+.nadwaga {
+color: yellow;
+}
+.otylosc {
+color: orangered
+}
+.powazna_otylosc {
+color: red;
+}
+.table_text {
+  font-size: 40px;
+}
